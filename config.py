@@ -1,0 +1,4 @@
+OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_MODEL = "llama3.2"
+REQUEST_TIMEOUT = 60
+MAX_DESCRIPTION_CHARS = 4000

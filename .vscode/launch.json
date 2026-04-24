@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Helpdesk API",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "backend.app.main:app",
+        "--reload"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}\\..\\.venv\\Scripts\\python.exe"
+    },
+    {
+      "name": "Helpdesk Frontend",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}\\frontend"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Helpdesk Full Stack",
+      "configurations": ["Helpdesk API", "Helpdesk Frontend"]
+    }
+  ]
+}

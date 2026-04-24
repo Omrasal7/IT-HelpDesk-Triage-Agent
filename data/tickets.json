@@ -1,0 +1,512 @@
+[
+  {
+    "id": "HD-EBB1D164",
+    "requester_name": "Om",
+    "requester_email": "omrasal527@gmail.com",
+    "department": "Engineering",
+    "title": "Internet issue",
+    "description": "Having problem with connecting to internet past 2 hours.",
+    "status": "in_progress",
+    "created_at": "2026-04-24T07:35:45.901448Z",
+    "updated_at": "2026-04-24T07:42:56.555443Z",
+    "resolved": false,
+    "reviewed_by_admin": true,
+    "admin_name": "ujjwal",
+    "admin_note": "",
+    "triage": {
+      "summary": "Internet connection issue",
+      "severity": "Medium",
+      "severity_reason": "affecting productivity but no wider outage",
+      "assigned_team": "Endpoint Support",
+      "routing_reason": "limited-scope issue with device or workstation support",
+      "first_response": "Hi Om, thanks for reaching out about your internet connection issue. Can you please tell me more about the problem you're experiencing? Are you using a specific device or software?",
+      "next_actions": [
+        "Restarting router and modem",
+        "Verifying network settings"
+      ],
+      "tags": [
+        "internet connectivity",
+        "endpoint support"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": false,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-F3DCF109",
+    "requester_name": "om",
+    "requester_email": "omrasal527@gmail.com",
+    "department": "Engineering",
+    "title": "server down",
+    "description": "server and net dowm",
+    "status": "in_progress",
+    "created_at": "2026-04-24T07:38:10.487273Z",
+    "updated_at": "2026-04-24T07:42:45.928667Z",
+    "resolved": false,
+    "reviewed_by_admin": true,
+    "admin_name": "ujjwal",
+    "admin_note": "resolved",
+    "triage": {
+      "summary": "Server Down Issue in Engineering Department",
+      "severity": "High",
+      "severity_reason": "This team is assigned due to the potential impact on business operations and the need for immediate resolution.",
+      "assigned_team": "Business Applications",
+      "routing_reason": "The request mentions a server down issue, which falls under line-of-business app incidents or access/usage problems.",
+      "first_response": "Hi OMA, sorry to hear that your server is down. Can you please confirm the status of the server and if it was working properly before going down?",
+      "next_actions": [
+        "Reach out to the team lead in Engineering to assess the situation and provide an update on the expected resolution time.",
+        "Check with IT Operations for any relevant alerts or notifications that may have been triggered during the incident."
+      ],
+      "tags": [
+        "server-down",
+        "engineering"
+      ],
+      "confidence": 0.9,
+      "escalate_to_human": false,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-0007F428",
+    "requester_name": "Om",
+    "requester_email": "omrasal527@gmail.com",
+    "department": "Engineering",
+    "title": "server issue",
+    "description": "server dowm for past 1 hour",
+    "status": "new",
+    "created_at": "2026-04-24T07:39:05.648586Z",
+    "updated_at": "2026-04-24T07:42:49.430354Z",
+    "resolved": false,
+    "reviewed_by_admin": true,
+    "admin_name": "ujjwal",
+    "admin_note": "resolved",
+    "triage": {
+      "summary": "Server down for the past 1 hour",
+      "severity": "High",
+      "severity_reason": "Business impact and urgent deadline",
+      "assigned_team": "Endpoint Support",
+      "routing_reason": "Device issue reported",
+      "first_response": "Hi Om, thank you for reaching out. I've received your report about the server going down for the past 1 hour. Can you please confirm if you have tried restarting the server or checking the power supply? Additionally, are there any error messages or logs available that might help us diagnose the issue?",
+      "next_actions": [
+        "Check server power supply",
+        "Verify server logs"
+      ],
+      "tags": [
+        "Server Issue",
+        "Urgent"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": true,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-D4DD3BA8",
+    "requester_name": "Om",
+    "requester_email": "omrasal16@gamil.com",
+    "department": "Engineering",
+    "title": "server issue",
+    "description": "serevr down",
+    "status": "resolved",
+    "created_at": "2026-04-24T07:43:46.814649Z",
+    "updated_at": "2026-04-24T08:37:08.082354Z",
+    "resolved": true,
+    "reviewed_by_admin": true,
+    "admin_name": "ujjwal",
+    "admin_note": "",
+    "triage": {
+      "summary": "Server is Down",
+      "severity": "Critical",
+      "severity_reason": "The server is unavailable, which may cause a full outage and severe business disruption.",
+      "assigned_team": "Security Operations",
+      "routing_reason": "This team handles security-related issues that could affect multiple users with no workaround.",
+      "first_response": "Hi Om, thank you for reaching out to us about the server issue. Can you please provide more details about what happened before it went down? Was there an error message or any unusual activity detected?",
+      "next_actions": [
+        "Verify server status and network connectivity",
+        "Check security logs for any suspicious activity"
+      ],
+      "tags": [
+        "server-down",
+        "security-incident"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": true,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-834DEF62",
+    "requester_name": "Yukta",
+    "requester_email": "omrasal527@gmail.com",
+    "department": "Engineering",
+    "title": "internet issue",
+    "description": "internet not working",
+    "status": "resolved",
+    "created_at": "2026-04-24T07:48:51.859815Z",
+    "updated_at": "2026-04-24T08:04:58.176245Z",
+    "resolved": true,
+    "reviewed_by_admin": true,
+    "admin_name": "Om",
+    "admin_note": "",
+    "triage": {
+      "summary": "Internet Not Working",
+      "severity": "High",
+      "severity_reason": "Major business impact, as team members are unable to access the internet.",
+      "assigned_team": "Network & VPN",
+      "routing_reason": "The request indicates an office networking issue affecting multiple users.",
+      "first_response": "Hi Yukta,\n\nThank you for reaching out to our support team. I'm here to help you with your internet connectivity issues.\nCan you please tell me more about when the issue started and if there are any error messages or lights on your router?",
+      "next_actions": [
+        "Verify network connectivity",
+        "Check router logs"
+      ],
+      "tags": [
+        "office-networking",
+        "high-priority"
+      ],
+      "confidence": 0.9,
+      "escalate_to_human": true,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-15E96F3D",
+    "requester_name": "Bilal",
+    "requester_email": "bilal123@gmail.com",
+    "department": "Engineering",
+    "title": "internet issue",
+    "description": "net not working past 2 hours",
+    "status": "resolved",
+    "created_at": "2026-04-24T08:02:35.944509Z",
+    "updated_at": "2026-04-24T08:30:40.317217Z",
+    "resolved": true,
+    "reviewed_by_admin": true,
+    "admin_name": "ujjwal",
+    "admin_note": "",
+    "triage": {
+      "summary": "Internet Issue Past 2 Hours",
+      "severity": "Medium",
+      "severity_reason": "Single-user or limited-scope issue affecting productivity but not causing a wider outage.",
+      "assigned_team": "Endpoint Support",
+      "routing_reason": "Device issues, peripherals, printer onboarding, and workstation support are related to endpoint issues.",
+      "first_response": "Hi Bilal,\n\nThanks for reaching out about the internet issue. I'm happy to help you get back up and running. Can you please confirm your location (office/remote) and tell me more about what's not working?",
+      "next_actions": [
+        "Verify device connectivity",
+        "Check network settings"
+      ],
+      "tags": [
+        "engineering",
+        "endpoint-issue"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": false,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-B3CFA884",
+    "requester_name": "Om",
+    "requester_email": "omrasal527@gmail.com",
+    "department": "Engineering",
+    "title": "server down",
+    "description": "down for pas 2 hours",
+    "status": "resolved",
+    "created_at": "2026-04-24T09:05:31.169777Z",
+    "updated_at": "2026-04-24T09:06:32.535802Z",
+    "resolved": true,
+    "reviewed_by_admin": true,
+    "admin_name": "ujjwal",
+    "admin_note": "",
+    "triage": {
+      "summary": "Server down after passing test 2 for 2 hours",
+      "severity": "High",
+      "severity_reason": "Server has been down for 2 hours, which may impact critical business operations.",
+      "assigned_team": "Endpoint Support",
+      "routing_reason": "The issue is related to a server, which falls under the Endpoint Support team's responsibility.",
+      "first_response": "Hi Om,\n\nI've received your request regarding the server being down for over 2 hours. I'm here to help you get back up and running as soon as possible. Can you please confirm your availability for me to visit or remotely troubleshoot the issue?",
+      "next_actions": [
+        "Visit Engineering department",
+        "Troubleshoot server issues"
+      ],
+      "tags": [
+        "server-down",
+        "engineering-dept"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": true,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-7D2A5A16",
+    "requester_name": "Om",
+    "requester_email": "omrasal527@gmail.com",
+    "department": "Data Analytics",
+    "title": "data server down",
+    "description": "down for past 2 hours",
+    "status": "resolved",
+    "created_at": "2026-04-24T09:10:48.815079Z",
+    "updated_at": "2026-04-24T09:12:57.458338Z",
+    "resolved": true,
+    "reviewed_by_admin": true,
+    "admin_name": "ujjwal",
+    "admin_note": "resolved",
+    "triage": {
+      "summary": "data server down for 2 hours",
+      "severity": "High",
+      "severity_reason": "business impact with limited workaround, urgent deadline implied",
+      "assigned_team": "Business Applications",
+      "routing_reason": "team handles line-of-business app incidents and access/usage problems",
+      "first_response": "Hi Om,\n\nSorry to hear that your data server is down for the past 2 hours. Can you please confirm if this issue is affecting your current working project?\nIs there an urgent deadline to meet or any specific data that needs to be retrieved?\nLooking forward to hearing back from you.",
+      "next_actions": [
+        "Check if the issue is isolated to a single user or a group",
+        "Verify the server status and logs to determine the cause of the outage"
+      ],
+      "tags": [
+        "data-server-down",
+        "business-impact"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": false,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-239D2DD7",
+    "requester_name": "Yukta",
+    "requester_email": "yukta123@gmail.com",
+    "department": "IT Operations",
+    "title": "cartupdate",
+    "description": "my products in cart is nogt getting updated",
+    "status": "resolved",
+    "created_at": "2026-04-24T09:22:06.866834Z",
+    "updated_at": "2026-04-24T09:24:03.744738Z",
+    "resolved": true,
+    "reviewed_by_admin": true,
+    "admin_name": "om ",
+    "admin_note": "",
+    "triage": {
+      "summary": "Cart update issue not updating correctly",
+      "severity": "Medium",
+      "severity_reason": "Single-user issue affecting productivity but no clear workaround.",
+      "assigned_team": "Messaging & Collaboration",
+      "routing_reason": "No email or Teams issues, but cart update is related to messaging and collaboration tools.",
+      "first_response": "Hi Yukta,\nI'm happy to help with your cart update issue. Can you please confirm the browser and OS you're using?\nBest, [Your Name]",
+      "next_actions": [
+        "Verify browser version",
+        "Check OS compatibility"
+      ],
+      "tags": [
+        "cartupdate",
+        "single-user issue"
+      ],
+      "confidence": 0.7,
+      "escalate_to_human": false,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-EFF0663A",
+    "requester_name": "ujjwal",
+    "requester_email": "omrasal527@gmail.com",
+    "department": "Engineering",
+    "title": "server down",
+    "description": "not working for past 2 hours",
+    "status": "resolved",
+    "created_at": "2026-04-24T09:25:07.585221Z",
+    "updated_at": "2026-04-24T09:26:38.305198Z",
+    "resolved": true,
+    "reviewed_by_admin": true,
+    "admin_name": "Om",
+    "admin_note": "",
+    "triage": {
+      "summary": "Server Down Since 2 Hours",
+      "severity": "High",
+      "severity_reason": "Major business impact and server availability is critical to engineering work.",
+      "assigned_team": "Endpoint Support",
+      "routing_reason": "Device issues are typically addressed by Endpoint Support.",
+      "first_response": "Hi Ujjwal,\n\nThank you for reaching out about the issue with your server. I'm here to help you resolve this as quickly as possible. Can you please confirm if you've tried restarting the server or checking the event logs for any errors?",
+      "next_actions": [
+        "Restart server",
+        "Check event logs"
+      ],
+      "tags": [
+        "Server",
+        "Endpoint Support"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": true,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-0F902996",
+    "requester_name": "Raksha",
+    "requester_email": "raksha@gmail.com",
+    "department": "IT Service Desk",
+    "title": "cart update issue",
+    "description": "my cart is not getting updated if i try to add r remove item ",
+    "status": "resolved",
+    "created_at": "2026-04-24T09:46:58.081278Z",
+    "updated_at": "2026-04-24T09:48:04.819967Z",
+    "resolved": true,
+    "reviewed_by_admin": true,
+    "admin_name": "Om",
+    "admin_note": "",
+    "triage": {
+      "summary": "Cart Update Issue",
+      "severity": "Medium",
+      "severity_reason": "Issue with cart update functionality, may affect productivity but has a limited scope.",
+      "assigned_team": "Messaging & Collaboration",
+      "routing_reason": "The issue is related to email and collaboration tooling problems, specifically the cart update feature.",
+      "first_response": "Hi Raksha,\n\nThank you for reaching out to IT Support. I'm happy to help you with your cart update issue. Can you please provide more details about the error message you're seeing or the steps you've taken so far to troubleshoot the issue?",
+      "next_actions": [
+        "Verify cart update functionality in email client",
+        "Check collaboration tooling logs for any errors"
+      ],
+      "tags": [
+        "cart-update",
+        "email-problem"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": false,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-EA3B8FA2",
+    "requester_name": "Raksha",
+    "requester_email": "raksha@gmail.com",
+    "department": "IT Service Desk",
+    "title": "Cart Update issue",
+    "description": "cart not getting update",
+    "status": "resolved",
+    "created_at": "2026-04-24T09:50:40.542902Z",
+    "updated_at": "2026-04-24T09:52:10.904237Z",
+    "resolved": true,
+    "reviewed_by_admin": true,
+    "admin_name": "Om",
+    "admin_note": "",
+    "triage": {
+      "summary": "Cart Update issue",
+      "severity": "Medium",
+      "severity_reason": "Single-user or limited-scope issue affecting productivity but not causing a wider outage.",
+      "assigned_team": "Endpoint Support",
+      "routing_reason": "Device issues reported by user Raksha",
+      "first_response": "Hi Raksha,\n\nThanks for reaching out to our IT Service Desk. I've logged your incident and will be happy to assist you with the cart update issue. Can you please confirm the specific error message you're seeing?",
+      "next_actions": [
+        "Check device configuration",
+        "Verify cart update plugin functionality"
+      ],
+      "tags": [
+        "cart-update",
+        "endpoint-support"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": false,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-21ADB386",
+    "requester_name": "om",
+    "requester_email": "omrasal527@gmail.com",
+    "department": "IT Service Desk",
+    "title": "phone problem",
+    "description": "cant download instagram app",
+    "status": "new",
+    "created_at": "2026-04-24T09:55:21.177473Z",
+    "updated_at": "2026-04-24T09:55:21.177480Z",
+    "resolved": false,
+    "reviewed_by_admin": false,
+    "admin_name": null,
+    "admin_note": "",
+    "triage": {
+      "summary": "Phone issue with Instagram App Download",
+      "severity": "Low",
+      "severity_reason": "Single user issue, no impact on business productivity and a clear workaround (using mobile data or Wi-Fi) is available.",
+      "assigned_team": "Endpoint Support",
+      "routing_reason": "Issue is related to device configuration or software installation, which falls under Endpoint Support.",
+      "first_response": "Hi om, thanks for reaching out. I'm here to help with your phone issue. Can you tell me more about the problem you're experiencing with downloading the Instagram app? Are you using a specific network or Wi-Fi connection?",
+      "next_actions": [
+        "Contact requester via phone to gather more information",
+        "Check device and network configuration"
+      ],
+      "tags": [
+        "Device Configuration",
+        "Software Installation"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": false,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-B9FEF5DE",
+    "requester_name": "Om",
+    "requester_email": "omrasal123@gmail.com",
+    "department": "IT Service Desk",
+    "title": "Server down",
+    "description": "Server Not Working pst 2 hours",
+    "status": "resolved",
+    "created_at": "2026-04-24T10:28:37.623569Z",
+    "updated_at": "2026-04-24T10:29:42.195193Z",
+    "resolved": true,
+    "reviewed_by_admin": true,
+    "admin_name": "Yash",
+    "admin_note": "",
+    "triage": {
+      "summary": "Server not working past 2 hours",
+      "severity": "Low",
+      "severity_reason": "Single-user or limited-scope issue affecting productivity but no wider outage",
+      "assigned_team": "Endpoint Support",
+      "routing_reason": "Device issue reported by requester",
+      "first_response": "Hi Om, thanks for reaching out to us about your server issue. Can you please confirm the exact error message you're seeing and if you've tried restarting the server?",
+      "next_actions": [
+        "Restart server",
+        "Check event logs for any errors"
+      ],
+      "tags": [
+        "Server Issue",
+        "Endpoint Support"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": false,
+      "used_fallback": false
+    }
+  },
+  {
+    "id": "HD-876C850B",
+    "requester_name": "Om",
+    "requester_email": "om@gmail.com",
+    "department": "IT Operations",
+    "title": "interent issue",
+    "description": "No internet since the morning",
+    "status": "resolved",
+    "created_at": "2026-04-24T13:36:58.204308Z",
+    "updated_at": "2026-04-24T13:37:54.347949Z",
+    "resolved": true,
+    "reviewed_by_admin": true,
+    "admin_name": "Yash",
+    "admin_note": "",
+    "triage": {
+      "summary": "No internet since morning",
+      "severity": "High",
+      "severity_reason": "No internet access may impact critical business operations and deadlines.",
+      "assigned_team": "Network & VPN",
+      "routing_reason": "Requester reports a network connectivity issue, which falls under the Network & VPN team's scope.",
+      "first_response": "Hi Om,\nI'm sorry to hear that you're experiencing no internet since morning. Can you please confirm your location and the devices affected?\nBest regards, [Your Name]",
+      "next_actions": [
+        "Verify network connectivity via router or switch",
+        "Check for any known outages in our region"
+      ],
+      "tags": [
+        "network issue",
+        "internet outage"
+      ],
+      "confidence": 0.8,
+      "escalate_to_human": false,
+      "used_fallback": false
+    }
+  }
+]
