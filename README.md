@@ -19,43 +19,7 @@ A full-stack local IT helpdesk triage app with:
 - `backend/app/storage.py`: local ticket persistence
 - `frontend/`: React + Vite UI
 - `data/tickets.json`: shared ticket data
-
-##Folder Structure
-IT-HELPDESK-AI/
-│
-├── backend/
-│   ├── app/
-│   │   ├── agents/              # AI logic
-│   │   │   ├── triage.py
-│   │   │
-│   │   ├── services/            # business logic
-│   │   │   ├── knowledge_base.py
-│   │   │   ├── storage.py
-│   │   │
-│   │   ├── models/              # schemas / classes
-│   │   │   ├── models.py
-│   │   │
-│   │   ├── config/              # configs only
-│   │   │   ├── config.py
-│   │   │
-│   │   ├── api/                 # routes (if using FastAPI)
-│   │   │   ├── main.py
-│   │
-│   ├── data/
-│   │   └── tickets.json
-│   │
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── src/
-│   ├── dist/
-│   ├── index.html
-│   └── package.json
-│
-├── README.md
-├── .gitignore
-└── .env
-
+- 
 ## Run locally
 1. Install Python dependencies:
    ```bash
