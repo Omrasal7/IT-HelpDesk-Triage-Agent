@@ -1,10 +1,10 @@
-# IT Helpdesk Triage Agent
+# IT Helpdesk Triage Agent 
 
 A full-stack local IT helpdesk triage app with:
 - React frontend for employee and admin workflows
 - FastAPI backend for login, ticket creation, admin updates, and dashboard data
 - Ollama-powered ticket triage with rule-based fallback
-- Local JSON storage for shared ticket state
+- Local JSON storage for shared ticket state.
 
 ## Workflow
 - Employee logs in with name, email, and department
